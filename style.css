@@ -1,0 +1,47 @@
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: auto;
+    background-color: #e8eae6;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+    border-radius: 3%;
+
+
+
+}
+
+.close-btn {
+
+    padding: 4px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+
+.submit-task {
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.bt2 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-left: 15%;
+}
+.added{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
